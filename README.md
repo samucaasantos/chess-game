@@ -74,17 +74,6 @@ The application is structured into three decoupled layers:
 
 ```text
 chess-game/
-│   ├── misc.xml                     # JDK configuration and language level settings
-│   ├── modules.xml                  # Project module definitions
-│   ├── vcs.xml                      # Version control mapping
-│   └── workspace.xml                # Local user workspace settings
-├── out/                             # Compiled binaries directory (.class files)
-│   └── production/
-│       └── chess-game/
-│           ├── application/
-│           ├── boardgame/
-│           └── chess/
-│               └── pieces/
 ├── src/                             # Application source code
 │   ├── application/                 # Application & UI layer
 │   │   ├── Program.java             # Main class and game loop orchestration
