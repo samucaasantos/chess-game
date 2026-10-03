@@ -74,7 +74,6 @@ The application is structured into three decoupled layers:
 
 ```text
 chess-game/
-├── .idea/                           # IntelliJ IDEA project configuration
 │   ├── misc.xml                     # JDK configuration and language level settings
 │   ├── modules.xml                  # Project module definitions
 │   ├── vcs.xml                      # Version control mapping
